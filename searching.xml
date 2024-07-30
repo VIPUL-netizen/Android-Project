@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    android:id="@+id/l1"
+    android:background="@drawable/circle"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Voter search"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+
+        android:text="Email ID"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+
+        android:hint="TYPE HERE"
+        ></EditText>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/B1"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:onClick="search"
+        android:layout_gravity="center"
+        >
+
+    </Button>
+
+</LinearLayout>
